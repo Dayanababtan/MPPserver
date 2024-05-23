@@ -1,17 +1,62 @@
 {
-  "name": "backend",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "mppapp",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "express": "^4.19.2"
+    "@canvasjs/react-charts": "^1.0.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@faker-js/faker": "^8.4.1",
+    "@mui/material": "^5.15.15",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.2",
+    "cors": "^2.8.5",
+    "expres": "^0.0.5",
+    "express": "^4.19.2",
+    "faker": "^5.5.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.5.0",
+    "morgan": "^1.10.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-google-charts": "^4.0.1",
+    "react-router-dom": "^6.23.0",
+    "react-script": "^2.0.5",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4"
   },
-  "description": ""
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-test-renderer": "^18.2.0",
+    "supertest": "^6.3.4"
+  }
 }
